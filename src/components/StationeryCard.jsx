@@ -1,57 +1,113 @@
-// import React from "react";
+// // import React from "react";
 
-// function StationeryCard({item}){
+// // function StationeryCard({item}){
 
-// return(
+// // return(
 
-// <a
-// href={item.url}
-// style={{
-// textDecoration:"none",
-// color:"#333"
-// }}
-// >
+// // <a
+// // href={item.url}
+// // style={{
+// // textDecoration:"none",
+// // color:"#333"
+// // }}
+// // >
 
-// <div
-// style={{
-// background:"#f6f6f6",
-// borderRadius:"6px",
-// overflow:"hidden",
-// transition:"0.3s",
-// cursor:"pointer"
-// }}
-// >
+// // <div
+// // style={{
+// // background:"#f6f6f6",
+// // borderRadius:"6px",
+// // overflow:"hidden",
+// // transition:"0.3s",
+// // cursor:"pointer"
+// // }}
+// // >
 
-// <img
-// src={item.image}
-// alt={item.name}
-// style={{
-// width:"100%",
-// height:"220px",
-// objectFit:"cover"
-// }}
-// />
+// // <img
+// // src={item.image}
+// // alt={item.name}
+// // style={{
+// // width:"100%",
+// // height:"220px",
+// // objectFit:"cover"
+// // }}
+// // />
 
-// <div
-// style={{
-// padding:"18px",
-// textAlign:"center",
-// fontSize:"18px",
-// fontWeight:"600"
-// }}
-// >
-// {item.name}
-// </div>
+// // <div
+// // style={{
+// // padding:"18px",
+// // textAlign:"center",
+// // fontSize:"18px",
+// // fontWeight:"600"
+// // }}
+// // >
+// // {item.name}
+// // </div>
 
-// </div>
+// // </div>
 
-// </a>
+// // </a>
 
-// )
+// // )
 
-// }
+// // }
 
-// export default StationeryCard;
+// // export default StationeryCard;
+
+// // import React from "react";
+// // import { Link } from "react-router-dom";
+
+// // function StationeryCard({item}){
+
+// // return(
+
+// // <Link
+// // to={item.url}
+// // style={{
+// // textDecoration:"none",
+// // color:"#333"
+// // }}
+// // >
+
+// // <div
+// // style={{
+// // background:"#f6f6f6",
+// // borderRadius:"6px",
+// // overflow:"hidden",
+// // transition:"0.3s",
+// // cursor:"pointer"
+// // }}
+// // >
+
+// // <img
+// // src={item.image}
+// // alt={item.name}
+// // style={{
+// // width:"100%",
+// // height:"220px",
+// // objectFit:"cover"
+// // }}
+// // />
+
+// // <div
+// // style={{
+// // padding:"18px",
+// // textAlign:"center",
+// // fontSize:"18px",
+// // fontWeight:"600"
+// // }}
+// // >
+// // {item.name}
+// // </div>
+
+// // </div>
+
+// // </Link>
+
+// // )
+
+// // }
+
+// // export default StationeryCard;
 
 // import React from "react";
 // import { Link } from "react-router-dom";
@@ -61,23 +117,19 @@
 // return(
 
 // <Link
-// to={item.url}
-// style={{
-// textDecoration:"none",
-// color:"#333"
-// }}
+// to={`/stationery/${item.slug}`}
+// style={{textDecoration:"none",color:"#333"}}
 // >
 
-// <div
+// {/* <div
 // style={{
 // background:"#f6f6f6",
 // borderRadius:"6px",
 // overflow:"hidden",
-// transition:"0.3s",
 // cursor:"pointer"
 // }}
-// >
-
+// > */}
+// <div className="stationery-card">
 // <img
 // src={item.image}
 // alt={item.name}
@@ -111,43 +163,23 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
+import "./StationeryCard.css";
 
 function StationeryCard({item}){
 
 return(
 
-<Link
-to={`/stationery/${item.slug}`}
-style={{textDecoration:"none",color:"#333"}}
->
+<Link to={`/stationery/${item.slug}`} className="stationery-link">
 
-{/* <div
-style={{
-background:"#f6f6f6",
-borderRadius:"6px",
-overflow:"hidden",
-cursor:"pointer"
-}}
-> */}
 <div className="stationery-card">
+
 <img
 src={item.image}
 alt={item.name}
-style={{
-width:"100%",
-height:"220px",
-objectFit:"cover"
-}}
+className="stationery-image"
 />
 
-<div
-style={{
-padding:"18px",
-textAlign:"center",
-fontSize:"18px",
-fontWeight:"600"
-}}
->
+<div className="stationery-title">
 {item.name}
 </div>
 

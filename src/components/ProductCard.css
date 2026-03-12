@@ -1,0 +1,25 @@
+.product-link{
+text-decoration:none;
+color:black;
+}
+
+.product-card{
+border:1px solid #ddd;
+padding:10px;
+text-align:center;
+cursor:pointer;
+transition:0.3s;
+}
+
+.product-card:hover{
+box-shadow:0 5px 15px rgba(0,0,0,0.15);
+}
+
+.product-image{
+width:100%;
+}
+
+.product-title{
+margin-top:10px;
+font-size:16px;
+}

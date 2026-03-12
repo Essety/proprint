@@ -1,0 +1,67 @@
+/* SECTION */
+
+.stationery-section{
+padding:60px 80px;
+max-width:1400px;
+margin:auto;
+}
+
+/* TITLE */
+
+.stationery-title{
+font-size:36px;
+font-weight:700;
+margin-bottom:40px;
+}
+
+/* GRID */
+
+.stationery-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:30px;
+}
+
+/* -------- RESPONSIVE -------- */
+
+/* LAPTOP */
+
+@media (max-width:1200px){
+
+.stationery-grid{
+grid-template-columns:repeat(3,1fr);
+}
+
+}
+
+/* TABLET */
+
+@media (max-width:900px){
+
+.stationery-section{
+padding:40px;
+}
+
+.stationery-grid{
+grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+/* MOBILE */
+
+@media (max-width:600px){
+
+.stationery-section{
+padding:30px 20px;
+}
+
+.stationery-title{
+font-size:28px;
+}
+
+.stationery-grid{
+grid-template-columns:1fr;
+}
+
+}

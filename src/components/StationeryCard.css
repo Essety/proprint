@@ -1,0 +1,31 @@
+.stationery-link{
+text-decoration:none;
+color:#333;
+}
+
+.stationery-card{
+background:#f6f6f6;
+border-radius:6px;
+overflow:hidden;
+cursor:pointer;
+transition:0.3s;
+box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+.stationery-card:hover{
+transform:scale(1.05);
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+.stationery-image{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.stationery-title{
+padding:18px;
+text-align:center;
+font-size:18px;
+font-weight:600;
+}

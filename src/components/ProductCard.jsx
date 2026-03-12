@@ -1,51 +1,83 @@
-// import React from "react";
+// // import React from "react";
 
-// function ProductCard({product}) {
+// // function ProductCard({product}) {
+
+// //   return (
+// //     <div style={{
+// //       width:"250px",
+// //       border:"1px solid #ddd",
+// //       padding:"10px",
+// //       textAlign:"center"
+// //     }}>
+
+// //       <img src={product.image} alt="" width="100%" />
+
+// //       <h3>{product.title}</h3>
+
+// //     </div>
+// //   );
+// // }
+
+// // export default ProductCard;
+
+// import React from "react";
+// import { Link } from "react-router-dom";
+
+// function ProductCard({ product }) {
 
 //   return (
-//     <div style={{
-//       width:"250px",
-//       border:"1px solid #ddd",
-//       padding:"10px",
-//       textAlign:"center"
-//     }}>
 
-//       <img src={product.image} alt="" width="100%" />
+//     <Link to={product.route} style={{textDecoration:"none", color:"black"}}>
 
-//       <h3>{product.title}</h3>
+//       <div style={{
+//         width:"250px",
+//         border:"1px solid #ddd",
+//         padding:"10px",
+//         textAlign:"center",
+//         cursor:"pointer"
+//       }}>
 
-//     </div>
+//         <img src={product.image} alt={product.title} width="100%" />
+
+//         <h3>{product.title}</h3>
+
+//       </div>
+
+//     </Link>
+
 //   );
+
 // }
 
 // export default ProductCard;
 
 import React from "react";
 import { Link } from "react-router-dom";
+import "./ProductCard.css";
 
-function ProductCard({ product }) {
+function ProductCard({product}){
 
-  return (
+return(
 
-    <Link to={product.route} style={{textDecoration:"none", color:"black"}}>
+<Link to={product.route} className="product-link">
 
-      <div style={{
-        width:"250px",
-        border:"1px solid #ddd",
-        padding:"10px",
-        textAlign:"center",
-        cursor:"pointer"
-      }}>
+<div className="product-card">
 
-        <img src={product.image} alt={product.title} width="100%" />
+<img
+src={product.image}
+alt={product.title}
+className="product-image"
+/>
 
-        <h3>{product.title}</h3>
+<h3 className="product-title">
+{product.title}
+</h3>
 
-      </div>
+</div>
 
-    </Link>
+</Link>
 
-  );
+)
 
 }
 
