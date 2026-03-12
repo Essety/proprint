@@ -71,10 +71,10 @@ import Stamps from "./pages/Stamps";
 import StampDetails from "./pages/StampDetails";
 import Letterheads from "./pages/Letterheads";
 import LetterheadDetails from "./pages/LetterheadDetails";
-import Billbooks from "./pages/bill-books";
+import Billbooks from "./pages/Billbooks";
 import "./App.css";
-import Idcards from "./pages/id-cards";
-import Cashvochers from "./pages/cash-vouchers";
+import Idcards from "./pages/Idcards";
+import Cashvochers from "./pages/Cashvochers";
 import Envelopes from "./pages/envelopes";
 
 function App() {
