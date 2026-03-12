@@ -51,7 +51,7 @@ proprints@yahoo.com
 
 <p style={{marginBottom:"10px"}}>
 <FiPhone style={{marginRight:"8px"}}/>
-+91 92112 53015
++91 91171 77979
 </p>
 
 <p style={{marginBottom:"20px"}}>

@@ -96,6 +96,8 @@ function App() {
         <Route path="/stationery/:category" element={<CategoryPage />} />
         <Route path="/stationery/stamps" element={<Stamps />} />
         <Route path="/stamps/:slug" element={<StampDetails/>}/>
+        <Route path="/letterheads" element={<Letterheads/>}/>
+<Route path="/letterheads/:slug" element={<LetterheadDetails/>}/>
 
 <Route path="/products/:slug" element={<ProductDetails />} />
 

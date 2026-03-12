@@ -85,8 +85,8 @@ If you believe your order qualifies for a replacement, please contact us at:
 </p>
 
 <p>
-📧 suresh_shivanient@yahoo.com <br/>
-📱 +91 92112 53015
+📧 proprint@gmail.com <br/>
+📱 +91 91171 77979
 </p>
 
 <p style={{marginTop:"20px"}}>

@@ -48,11 +48,11 @@ New Delhi - 110067
 <h3 style={{marginTop:"20px"}}>Contact</h3>
 
 <p style={{color:"#777",marginTop:"15px"}}>
-Mobile: +91 9211253015
+Mobile: +91 9117177979
 <br/>
 Landline: 011 46091624
 <br/>
-E-mail: suresh_shivanient@yahoo.com
+E-mail: proprint@gmail.com
 </p>
 
 </div>
