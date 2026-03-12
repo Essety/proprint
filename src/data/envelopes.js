@@ -8,8 +8,8 @@ const envelopes = [
   },
   {
     id: 2,
-    name: "Window Envelope",
-    title: "/images/envelopes/window.png",
+    title: "Window Envelope",
+    image: "/images/envelopes/window.png",
     price: 30,
     slug: "window-envelope",
   },
