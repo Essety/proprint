@@ -437,14 +437,15 @@ function ProductDetails() {
   return (
     <div>
 
-      <div
+      {/* <div
         style={{
           display: "flex",
           gap: "60px",
           padding: "60px 80px",
           alignItems: "flex-start"
         }}
-      >
+      > */}
+      <div className="container product-layout">
 
         {/* LEFT IMAGE */}
 

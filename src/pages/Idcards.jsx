@@ -12,22 +12,13 @@ return(
 ID Cards
 </h2>
 
-<div style={{
-display:"grid",
-gridTemplateColumns:"repeat(4,1fr)",
-gap:"30px"
-}}>
+<div className="product-grid">
 
 {idcards.map((item)=>(
 
 <Link key={item.slug} to={`/stationery/idcards/${item.slug}`} style={{textDecoration:"none"}}>
 
-{/* <div style={{
-background:"#f6f6f6",
-borderRadius:"8px",
-overflow:"hidden",
-cursor:"pointer"
-}}> */}
+{/* <div className="stationery-card"> */}
 
 <div className="stationery-card">
 
@@ -36,7 +27,7 @@ src={item.image} alt={item.name}
 style={{width:"100%",height:"220px",objectFit:"cover"}}
 />
 
-<h3 style={{padding:"15px"}}>
+<h3 className="card-title">
 {item.title}
 </h3>
 

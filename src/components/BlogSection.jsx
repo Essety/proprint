@@ -21,11 +21,7 @@ About Printing Technology
 
 {/* BLOG GRID */}
 
-<div style={{
-display:"grid",
-gridTemplateColumns:"repeat(4,1fr)",
-gap:"30px"
-}}>
+<div className="product-grid">
 
 {blogs.slice(0,visible).map((blog,index)=>(
 
