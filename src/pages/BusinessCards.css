@@ -1,0 +1,100 @@
+/* Page Container */
+.business-cards-page {
+  padding: 60px 0;
+}
+
+/* SECTION TITLE */
+.card-section h2 {
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
+/* PRODUCT GRID */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+/* CARD LINK */
+.card-link {
+  text-decoration: none;
+  color: #333;
+}
+
+/* STATIONERY CARD (reuse your existing) */
+.stationery-card {
+  background: #f6f6f6;
+  border-radius: 6px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.stationery-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.stationery-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.stationery-card h3 {
+  margin-top: 10px;
+  padding: 10px 0;
+}
+
+/* SEO SECTION */
+.seo-section {
+  margin-top: 80px;
+  max-width: 900px;
+}
+
+.seo-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.seo-section p {
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.seo-section h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.seo-section ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  line-height: 1.8;
+}
+
+/* -------- RESPONSIVE -------- */
+@media (max-width: 1200px) {
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .business-cards-page {
+    padding: 40px 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+}
