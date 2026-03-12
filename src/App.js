@@ -76,6 +76,10 @@ import "./App.css";
 import Idcards from "./pages/Idcards";
 import Cashvochers from "./pages/Cashvochers";
 import Envelopes from "./pages/envelopes";
+import BillbookDetails from "./pages/BillbookDetails";
+import IdcardDetails from "./pages/IdcardDetails";
+import Cashvochersdetails from "./pages/CashvochersDetails";
+import EnvelopeDetails from "./pages/EnvelopeDetails";
 
 function App() {
 
@@ -105,11 +109,16 @@ function App() {
         <Route path="/stationery/letterheads" element={<Letterheads/>}/>
 <Route path="/stationery/letterheads/:slug" element={<LetterheadDetails/>}/>
 <Route path="/stationery/bill-books" element={<Billbooks/>}/>
+<Route path="/stationery/billbooks/:slug" element={<BillbookDetails/>}/>
+<Route path="/stationery/idcards/:slug" element={<IdcardDetails/>}/>
 <Route path="/stationery/id-cards" element={<Idcards/>}/>
 <Route path="/stationery/cash-vouchers" element={<Cashvochers/>}/>
+<Route path="/stationery/cashvochers/:slug" element={<Cashvochersdetails/>}/>
 <Route path="/stationery/envelopes" element={<Envelopes/>}/>
+<Route path="/stationery/envelopes/:slug" element={<EnvelopeDetails/>}/>
 
 <Route path="/products/:slug" element={<ProductDetails />} />
+
 
       </Routes>
 
