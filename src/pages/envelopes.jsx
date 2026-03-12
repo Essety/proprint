@@ -1,15 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { letterheads } from "../data/letterheads";
+import envelopes from "../data/envelopes";
 
-function Letterheads(){
+function Envelopes(){
 
 return(
 
 <div style={{padding:"60px 80px"}}>
 
 <h2 style={{fontSize:"36px",marginBottom:"30px"}}>
-Letterhead Printing
+Envelopes
 </h2>
 
 <div style={{
@@ -18,9 +18,9 @@ gridTemplateColumns:"repeat(4,1fr)",
 gap:"30px"
 }}>
 
-{letterheads.map((item)=>(
+{envelopes.map((item)=>(
 
-<Link key={item.slug} to={`/stationery/letterheads/${item.slug}`} style={{textDecoration:"none"}}>
+<Link key={item.slug} to={`/stationery/envelopes/${item.slug}`} style={{textDecoration:"none"}}>
 
 {/* <div style={{
 background:"#f6f6f6",
@@ -32,7 +32,7 @@ cursor:"pointer"
 <div className="stationery-card">
 
 <img
-src={item.image}
+src={item.image} alt={item.name}
 style={{width:"100%",height:"220px",objectFit:"cover"}}
 />
 
@@ -54,4 +54,4 @@ style={{width:"100%",height:"220px",objectFit:"cover"}}
 
 }
 
-export default Letterheads;
+export default Envelopes;

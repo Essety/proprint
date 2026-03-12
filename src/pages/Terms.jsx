@@ -32,7 +32,7 @@ Proprints reserves the right to make changes to this Site and to these Terms of 
 </p>
 
 <p>
-You also agree that we may provide all communications (including marketing communication) to you electronically by posting them on our website or, at our election, by sending an e-mail to the e-mail address you provided to us when you registered at our website or by calling on your registered phone number. You may withdraw your consent to receive communications from us electronically by contacting customer care at support@shivanienterprises.com.. However, if you withdraw your consent to receive our communications electronically, you might not get all the communications regarding your order and your account.
+You also agree that we may provide all communications (including marketing communication) to you electronically by posting them on our website or, at our election, by sending an e-mail to the e-mail address you provided to us when you registered at our website or by calling on your registered phone number. You may withdraw your consent to receive communications from us electronically by contacting customer care at support@proprints.com.. However, if you withdraw your consent to receive our communications electronically, you might not get all the communications regarding your order and your account.
 </p>
 
 
@@ -42,11 +42,11 @@ General
 </h3>
 
 <p>
-All the terms and conditions and/or any transactions occurring online at www.shivanienterprises.com or by phone are subject to the laws of Delhi, India. Proprints is not responsible for the delay and/or damages resulting from Machinery Breakdown, Acts of God, and from other actions, both governmental and otherwise, including but not limited to war, riot, seizure, and embargo.
+All the terms and conditions and/or any transactions occurring online at www.proprints.com or by phone are subject to the laws of Delhi, India. Proprints is not responsible for the delay and/or damages resulting from Machinery Breakdown, Acts of God, and from other actions, both governmental and otherwise, including but not limited to war, riot, seizure, and embargo.
 </p>
 
 <p>
-The tools available on www.shivanienterprises.com to create document is the property of Proprints and its affiliated companies. The Buyer’s order shall be deemed an acceptance of the Seller’s terms. The Terms and conditions shall in all respects be governed by the jurisdiction of the Courts of Delhi, India.
+The tools available on www.proprints.com to create document is the property of Proprints and its affiliated companies. The Buyer’s order shall be deemed an acceptance of the Seller’s terms. The Terms and conditions shall in all respects be governed by the jurisdiction of the Courts of Delhi, India.
 </p>
 
 

@@ -24,7 +24,7 @@ Your privacy is very important to us. We do not sell or rent your personal infor
 </p>
 
 <p>
-The privacy practices of this statement apply to our services available under the domain and sub domains of www.shivanienterprises.com (the “Site”) and apply generally to our parent, affiliates, subsidiaries or joint venture websites. By visiting this website you agree to be bound by the terms and conditions of this Privacy Policy. If you do not agree please do not use or access our Site.
+The privacy practices of this statement apply to our services available under the domain and sub domains of www.proprints.com (the “Site”) and apply generally to our parent, affiliates, subsidiaries or joint venture websites. By visiting this website you agree to be bound by the terms and conditions of this Privacy Policy. If you do not agree please do not use or access our Site.
 </p>
 
 <p>
@@ -41,7 +41,7 @@ Your Privacy – Our Commitment
 </h3>
 
 <p>
-At www.shivanienterprises.com, we are extremely proud of our commitment to protect your privacy. We value your trust in us. We will work hard to earn your confidence so that you can enthusiastically use our services and recommend us to friends and family.
+At www.proprints.com, we are extremely proud of our commitment to protect your privacy. We value your trust in us. We will work hard to earn your confidence so that you can enthusiastically use our services and recommend us to friends and family.
 </p>
 
 <p>
@@ -50,16 +50,16 @@ Please read the following policy to understand how your personal information wil
 
 
 <h3 style={{marginTop:"40px",color:"#555"}}>
-WWW.SHIVANIENTERPRISES.COM PRIVACY POLICY
+WWW.proprints.COM PRIVACY POLICY
 </h3>
 
 <p>
-www.shivanienterprises.com promises that we will not sell or rent your personal information to third parties for their marketing purposes without your explicit consent.
+www.proprints.com promises that we will not sell or rent your personal information to third parties for their marketing purposes without your explicit consent.
 </p>
 
 
 <h3 style={{marginTop:"40px",color:"#555"}}>
-Information www.shivanienterprises.com collects
+Information www.proprints.com collects
 </h3>
 
 <p>
@@ -104,7 +104,7 @@ Use of your information
 </h3>
 
 <p>
-www.shivanienterprises.com uses your personal information to facilitate the services you request.
+www.proprints.com uses your personal information to facilitate the services you request.
 </p>
 
 <p>
@@ -121,7 +121,7 @@ Our Disclosure of Your Information
 </h3>
 
 <p>
-www.shivanienterprises.com may also use your information to deliver information to you that may be targeted to your interests such as new services and promotions.
+www.proprints.com may also use your information to deliver information to you that may be targeted to your interests such as new services and promotions.
 </p>
 
 <p>
@@ -138,7 +138,7 @@ Legal Requests
 </h3>
 
 <p>
-www.shivanienterprises.com cooperates with law enforcement and regulatory inquiries as well as other third parties to enforce laws and protect users.
+www.proprints.com cooperates with law enforcement and regulatory inquiries as well as other third parties to enforce laws and protect users.
 </p>
 
 <p>
@@ -151,7 +151,7 @@ What About Children’s Privacy?
 </h3>
 
 <p>
-Children are not eligible to use our Site and www.shivanienterprises.com asks that minors under the age of 18 do not submit any personal information to us.
+Children are not eligible to use our Site and www.proprints.com asks that minors under the age of 18 do not submit any personal information to us.
 </p>
 
 
@@ -182,7 +182,7 @@ Your Consent
 </h3>
 
 <p>
-By using the Site, you consent to the collection and use of the information you disclose on the Site by www.shivanienterprises.com.
+By using the Site, you consent to the collection and use of the information you disclose on the Site by www.proprints.com.
 </p>
 
 <p>
