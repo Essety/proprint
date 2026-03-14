@@ -435,7 +435,7 @@ marginBottom:"10px"
 </div>
 ))}
 
-<div>
+{/* <div>
 
 <img
 src="https://picsum.photos/300/200" alt=""
@@ -447,7 +447,7 @@ src="https://picsum.photos/300/201" alt=""
 style={{width:"100%"}}
 />
 
-</div>
+</div> */}
 
 </div>
 
